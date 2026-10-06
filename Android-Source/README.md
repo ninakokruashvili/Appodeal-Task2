@@ -20,3 +20,26 @@ Dependencies use the modular core and AdMob adapter coordinates from Appodeal's 
 Use `scripts/capture.sh logs` to start console capture and `scripts/capture.sh screenshot banner` (or interstitial/rewarded/native) while the ad is visible. The script uses `adb` from PATH or the usual Android SDK directory. Recording instructions and pass criteria are in [the QA report](qa/REPORT.md).
 
 Local diagnostics ruled out a stale app cache, missing optional Adjust adapter and a failure unique to this registered package. The SDK configuration response omits its required services field; see the final local-investigation section in qa/REPORT.md. SDK errors remain visible.
+
+## Build instructions
+
+From the Android-Source directory, with JDK 17 or 21 and Android SDK platform 36 / Build Tools 36.0.0 installed:
+
+```sh
+./gradlew assembleDebug lintDebug
+```
+
+If the Android SDK is not detected, set its location in Android Studio or in a local `local.properties` file using `sdk.dir=/path/to/Android/sdk`. The generated APK is `app/build/outputs/apk/debug/app-debug.apk`.
+
+To install the supplied APK from the submission's top-level directory:
+
+```sh
+adb install -r APK/AppodealQA.apk
+```
+
+## Known issues
+
+- The initialization callback reports `SdkConfigurationError`. All four format initialization flags are true and all four Test Mode formats loaded and displayed, but error-free initialization has not passed.
+- Local diagnostics found that the SDK configuration response lacks its required `services` field. The reason for this response remains unresolved; details and comparison results are in the QA report.
+- Reproducing requests requires the matching Appodeal app key, entered at runtime. The key is excluded from the submission.
+- Screenshots are supplied for every ad format; a screen recording is not included.
