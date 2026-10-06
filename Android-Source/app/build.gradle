@@ -1,0 +1,22 @@
+plugins { id 'com.android.application' }
+android {
+    namespace 'com.example.appodealqa'
+    compileSdk 36
+    defaultConfig {
+        applicationId providers.gradleProperty('demoPackage').getOrElse('com.task2.appodealqa')
+        minSdk 24
+        targetSdk 36
+        versionCode 1
+        versionName '1.0.0'
+    }
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_17
+        targetCompatibility JavaVersion.VERSION_17
+    }
+}
+dependencies {
+    implementation 'com.appodeal.ads.sdk:core:4.4.0'
+    implementation 'com.appodeal.ads.sdk.adapters:admob:25.2.0.0'
+    implementation 'com.appodeal.ads.sdk.adapters:iab:1.8.1.0'
+    implementation 'com.appodeal.ads.sdk.adapters:bidmachine:3.7.1.0'
+}

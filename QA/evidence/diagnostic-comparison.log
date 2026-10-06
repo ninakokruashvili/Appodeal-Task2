@@ -1,0 +1,11 @@
+4.4.0 baseline
+10-07 02:08:30.856  4972  4972 I AppodealQA: 2026-10-07 02:08:30.856 CALLBACK onInitializationFinished errors=[com.appodeal.ads.initializing.ApdInitializationError$InternalError$SdkConfigurationError]
+
+4.4.0 + optional Adjust
+10-07 02:10:19.573  5478  5478 I AppodealQA: 2026-10-07 02:10:19.573 CALLBACK onInitializationFinished errors=[com.appodeal.ads.initializing.ApdInitializationError$InternalError$SdkConfigurationError]
+
+Official public demo package
+10-07 02:11:16.379  5759  5759 I AppodealQA: 2026-10-07 02:11:16.379 CALLBACK onInitializationFinished errors=[com.appodeal.ads.initializing.ApdInitializationError$InternalError$SdkConfigurationError]
+
+4.2.0 comparison
+10-07 02:12:49.749  6055  6055 I AppodealQA: 2026-10-07 02:12:49.749 CALLBACK onInitializationFinished errors=[com.appodeal.ads.initializing.ApdInitializationError$InternalError$SdkConfigurationError]

@@ -1,0 +1,201 @@
+--------- beginning of main
+10-07 01:49:29.358  6620  6620 I AppodealQA: 2026-10-07 01:49:29.358 SESSION ready; no ad requests until Initialize SDK
+10-07 01:49:37.546  6620  6620 D Appodeal: SDK-Public [Appodeal]: setLogLevel. log level: verbose
+10-07 01:49:37.547  6620  6620 D Appodeal: SDK-Public [Appodeal]: setAutoCache. auto cache for Banner: false
+10-07 01:49:37.562  6620  6620 D Appodeal: Segment [Set]: matched segment #-1 (default - true): {}
+10-07 01:49:37.563  6620  6620 D Appodeal: SDK-Public [Appodeal]: setAutoCache. auto cache for Interstitial: false
+10-07 01:49:37.564  6620  6620 D Appodeal: SDK-Public [Appodeal]: setAutoCache. auto cache for RewardedVideo: false
+10-07 01:49:37.564  6620  6620 D Appodeal: SDK-Public [Appodeal]: setAutoCache. auto cache for Native: false
+10-07 01:49:37.565  6620  6620 I AppodealQA: 2026-10-07 01:49:37.564 ACTION initialize testMode=true formats=Banner,Interstitial,Rewarded,Native
+10-07 01:49:37.604  6620  6620 D Appodeal: SDK-Public [Appodeal]: initialize
+10-07 01:49:37.749  6620  6643 D Appodeal: SDK-Public [Initialize]: v4.4.0/240926 initialized, appKey: [APP_KEY_REDACTED], package name: com.task2.appodealqa
+10-07 01:49:37.750  6620  6643 D Appodeal: SDK-Public [Initialize]: Current device is: Emulator
+10-07 01:49:37.750  6620  6643 D Appodeal: SDK-Public [Initialize]: Google play services version: 12451000
+10-07 01:49:37.753  6620  6643 D Appodeal: Network [Info]: A4g - ver. 25.2.0
+10-07 01:49:37.753  6620  6643 D Appodeal: Network [Info]: Admob - ver. 25.2.0
+10-07 01:49:37.753  6620  6643 D Appodeal: Network [Info]: AdmobNative - ver. 25.2.0
+10-07 01:49:37.753  6620  6643 D Appodeal: Network [Info]: AdmobMediation - ver. 25.2.0
+10-07 01:49:37.753  6620  6643 D Appodeal: Network [Info]: Appodeal - ver. 1.0.0
+10-07 01:49:37.754  6620  6643 D Appodeal: Network [Info]: Bidmachine - ver. 3.7.1
+10-07 01:49:37.770  6620  6643 D Appodeal: Network [Info]: Gam - ver. 25.2.0
+10-07 01:49:37.791  6620  6643 D Appodeal: Network [Info]: Mraid - ver. 1.8.1
+10-07 01:49:37.791  6620  6643 D Appodeal: Network [Info]: Notsy - ver. 25.2.0
+10-07 01:49:37.792  6620  6643 D Appodeal: Network [Info]: Vast - ver. 1.8.1
+10-07 01:49:37.903  6620  6643 D Appodeal: AdvertisingProfile [Extract]: GoogleAdvertisingProfile(id='0f563b70-7458-47f1-9dd5-bc8581ebf1eb', isLimitAdTrackingEnabled=false, isAdvertisingIdWasGenerated=false)
+10-07 01:49:38.708  6620  6643 D Appodeal: AdvertisingProfile [Extract]: GoogleAdvertisingProfile(id='0f563b70-7458-47f1-9dd5-bc8581ebf1eb', isLimitAdTrackingEnabled=false, isAdvertisingIdWasGenerated=false)
+10-07 01:49:38.710  6620  6643 D Appodeal: Exception
+10-07 01:49:38.710  6620  6643 D Appodeal: java.lang.IllegalArgumentException: Required value was null.
+10-07 01:49:38.710  6620  6643 D Appodeal: 	at com.appodeal.ads.networking.usecases.b.a(r8-map-id-2b845dd64a213c5d71ece355699e576f27eabcd258713d6e451a0bfbd79f770c:11)
+10-07 01:49:38.710  6620  6643 D Appodeal: 	at com.appodeal.ads.l6.invokeSuspend(r8-map-id-2b845dd64a213c5d71ece355699e576f27eabcd258713d6e451a0bfbd79f770c:42)
+10-07 01:49:38.710  6620  6643 D Appodeal: 	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:34)
+10-07 01:49:38.710  6620  6643 D Appodeal: 	at kotlinx.coroutines.internal.ScopeCoroutine.afterResume(Scopes.kt:28)
+10-07 01:49:38.710  6620  6643 D Appodeal: 	at kotlinx.coroutines.AbstractCoroutine.resumeWith(AbstractCoroutine.kt:100)
+10-07 01:49:38.710  6620  6643 D Appodeal: 	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:47)
+10-07 01:49:38.710  6620  6643 D Appodeal: 	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:101)
+10-07 01:49:38.710  6620  6643 D Appodeal: 	at kotlinx.coroutines.internal.LimitedDispatcher$Worker.run(LimitedDispatcher.kt:113)
+10-07 01:49:38.710  6620  6643 D Appodeal: 	at kotlinx.coroutines.scheduling.TaskImpl.run(Tasks.kt:89)
+10-07 01:49:38.710  6620  6643 D Appodeal: 	at kotlinx.coroutines.scheduling.CoroutineScheduler.runSafely(CoroutineScheduler.kt:589)
+10-07 01:49:38.710  6620  6643 D Appodeal: 	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.executeTask(CoroutineScheduler.kt:823)
+10-07 01:49:38.710  6620  6643 D Appodeal: 	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.runWorker(CoroutineScheduler.kt:720)
+10-07 01:49:38.710  6620  6643 D Appodeal: 	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.run(CoroutineScheduler.kt:707)
+10-07 01:49:39.855  6620  6641 D Appodeal: AdvertisingProfile [Extract]: GoogleAdvertisingProfile(id='0f563b70-7458-47f1-9dd5-bc8581ebf1eb', isLimitAdTrackingEnabled=false, isAdvertisingIdWasGenerated=false)
+10-07 01:49:39.990  6620  6620 D Appodeal: SDK-Public [Appodeal]: initialize. Error during executing method - 
+10-07 01:49:39.991  6620  6620 D Appodeal: Banner [Initialize]: done
+10-07 01:49:39.991  6620  6620 D Appodeal: Native [Initialize]: done
+10-07 01:49:39.992  6620  6620 D Appodeal: Interstitial [Initialize]: done
+10-07 01:49:39.992  6620  6620 D Appodeal: RewardedVideo [Initialize]: done
+10-07 01:49:39.992  6620  6620 I AppodealQA: 2026-10-07 01:49:39.992 CALLBACK onInitializationFinished errors=[com.appodeal.ads.initializing.ApdInitializationError$InternalError$SdkConfigurationError]
+10-07 01:49:39.993  6620  6620 I AppodealQA: 2026-10-07 01:49:39.993 STATE Banner initialized=true
+10-07 01:49:39.994  6620  6620 I AppodealQA: 2026-10-07 01:49:39.994 STATE Interstitial initialized=true
+10-07 01:49:39.994  6620  6620 I AppodealQA: 2026-10-07 01:49:39.994 STATE Rewarded initialized=true
+10-07 01:49:39.994  6620  6620 I AppodealQA: 2026-10-07 01:49:39.994 STATE Native initialized=true
+10-07 01:50:11.659  6620  6620 I AppodealQA: 2026-10-07 01:50:11.659 ACTION cache Banner
+10-07 01:50:11.664  6620  6620 D Appodeal: SDK-Public [Appodeal]: cache
+10-07 01:50:11.665  6620  6620 D Appodeal: Banner [Cache]: isDebug: false, isLoaded: false, isLoading: false
+10-07 01:50:11.737  6620  6697 D Appodeal: AdvertisingProfile [Extract]: GoogleAdvertisingProfile(id='0f563b70-7458-47f1-9dd5-bc8581ebf1eb', isLimitAdTrackingEnabled=false, isAdvertisingIdWasGenerated=false)
+10-07 01:50:11.904  6620  6783 D Appodeal: SDK-Public [Appodeal]: setTesting. testing: true
+10-07 01:50:11.907  6620  6783 D Appodeal: SDK [Dump]: Banner waterfall:
+10-07 01:50:11.907  6620  6783 D Appodeal:   Ads:
+10-07 01:50:11.907  6620  6783 D Appodeal:     Test ad (Mraid), eCPM: 0.00; 
+10-07 01:50:11.913  6620  6620 D Appodeal: Banner [Load Start]: Mraid - eCPM: 0.00, precache: false, expTime: 0, id: RGdwR...
+10-07 01:50:12.573  6620  6620 D Appodeal: Banner [Loaded]: Mraid - eCPM: 0.00, precache: false, expTime: 0, id: RGdwR...
+10-07 01:50:12.573  6620  6620 D Appodeal: Banner [Postbid Cache]: isDebug: false, isLoaded: true, isLoading: false
+10-07 01:50:12.621  6620  6641 D Appodeal: AdvertisingProfile [Extract]: GoogleAdvertisingProfile(id='0f563b70-7458-47f1-9dd5-bc8581ebf1eb', isLimitAdTrackingEnabled=false, isAdvertisingIdWasGenerated=false)
+10-07 01:50:12.628  6620  6641 D Appodeal: ProtoRequest [Request body size to report: 2986 bytes.]
+10-07 01:50:12.702  6620  6783 D Appodeal: Banner [Request Failed]: No ads in banner
+10-07 01:50:12.702  6620  6783 D Appodeal: Banner [Load Failed (soft)]: REQUEST ERROR (4)
+10-07 01:50:12.702  6620  6620 D Appodeal: Banner [Notify Loaded]: height: 50dp, isPrecache: false
+10-07 01:50:12.702  6620  6620 I AppodealQA: 2026-10-07 01:50:12.702 CALLBACK onBannerLoaded height=50 isPrecache=false
+10-07 01:50:12.704  6620  6783 D Appodeal: Banner [Notify Mediation Result]: (winner): Mraid - eCPM: 0.00, id: RGdwR...
+10-07 01:50:13.274  6620  6620 I AppodealQA: 2026-10-07 01:50:13.274 ACTION cache Interstitial
+10-07 01:50:13.275  6620  6620 D Appodeal: SDK-Public [Appodeal]: cache
+10-07 01:50:13.276  6620  6620 D Appodeal: Interstitial [Cache]: isDebug: false, isLoaded: false, isLoading: false
+10-07 01:50:13.348  6620  6643 D Appodeal: AdvertisingProfile [Extract]: GoogleAdvertisingProfile(id='0f563b70-7458-47f1-9dd5-bc8581ebf1eb', isLimitAdTrackingEnabled=false, isAdvertisingIdWasGenerated=false)
+10-07 01:50:13.452  6620  6783 D Appodeal: SDK-Public [Appodeal]: setTesting. testing: true
+10-07 01:50:13.453  6620  6783 D Appodeal: SDK [Dump]: Interstitial waterfall:
+10-07 01:50:13.453  6620  6783 D Appodeal:   Ads:
+10-07 01:50:13.453  6620  6783 D Appodeal:     Test ad (Mraid), eCPM: 0.00; 
+10-07 01:50:13.453  6620  6620 D Appodeal: Interstitial [Load Start]: Mraid - eCPM: 0.00, precache: false, expTime: 0, id: Unl6b...
+10-07 01:50:13.570  6620  6620 D Appodeal: Interstitial [Loaded]: Mraid - eCPM: 0.00, precache: false, expTime: 0, id: Unl6b...
+10-07 01:50:13.570  6620  6620 D Appodeal: Interstitial [Postbid Cache]: isDebug: false, isLoaded: true, isLoading: false
+10-07 01:50:13.658  6620  6697 D Appodeal: AdvertisingProfile [Extract]: GoogleAdvertisingProfile(id='0f563b70-7458-47f1-9dd5-bc8581ebf1eb', isLimitAdTrackingEnabled=false, isAdvertisingIdWasGenerated=false)
+10-07 01:50:13.660  6620  6697 D Appodeal: ProtoRequest [Request body size to report: 2977 bytes.]
+10-07 01:50:13.736  6620  6783 D Appodeal: Interstitial [Request Failed]: No ads in interstitial
+10-07 01:50:13.736  6620  6783 D Appodeal: Interstitial [Load Failed (soft)]: REQUEST ERROR (4)
+10-07 01:50:13.736  6620  6783 D Appodeal: Interstitial [Notify Mediation Result]: (winner): Mraid - eCPM: 0.00, id: Unl6b...
+10-07 01:50:13.752  6620  6620 D Appodeal: Interstitial [Notify Loaded]: isPrecache: false
+10-07 01:50:13.752  6620  6620 I AppodealQA: 2026-10-07 01:50:13.752 CALLBACK onInterstitialLoaded isPrecache=false
+10-07 01:50:15.006  6620  6620 I AppodealQA: 2026-10-07 01:50:15.006 ACTION cache Rewarded
+10-07 01:50:15.008  6620  6620 D Appodeal: SDK-Public [Appodeal]: cache
+10-07 01:50:15.008  6620  6620 D Appodeal: RewardedVideo [Cache]: isDebug: false, isLoaded: false, isLoading: false
+10-07 01:50:15.148  6620  6697 D Appodeal: AdvertisingProfile [Extract]: GoogleAdvertisingProfile(id='0f563b70-7458-47f1-9dd5-bc8581ebf1eb', isLimitAdTrackingEnabled=false, isAdvertisingIdWasGenerated=false)
+10-07 01:50:15.263  6620  6783 D Appodeal: SDK-Public [Appodeal]: setTesting. testing: true
+10-07 01:50:15.263  6620  6783 D Appodeal: SDK [Dump]: RewardedVideo waterfall:
+10-07 01:50:15.263  6620  6783 D Appodeal:   Ads:
+10-07 01:50:15.263  6620  6783 D Appodeal:     Test ad (Vast), eCPM: 0.00; 
+10-07 01:50:15.264  6620  6620 D Appodeal: RewardedVideo [Load Start]: Vast - eCPM: 0.00, precache: false, expTime: 0, id: NmFLR...
+10-07 01:50:15.608  6620  6620 D Appodeal: RewardedVideo [Loaded]: Vast - eCPM: 0.00, precache: false, expTime: 0, id: NmFLR...
+10-07 01:50:15.612  6620  6620 D Appodeal: RewardedVideo [Postbid Cache]: isDebug: false, isLoaded: true, isLoading: false
+10-07 01:50:15.766  6620  6697 D Appodeal: AdvertisingProfile [Extract]: GoogleAdvertisingProfile(id='0f563b70-7458-47f1-9dd5-bc8581ebf1eb', isLimitAdTrackingEnabled=false, isAdvertisingIdWasGenerated=false)
+10-07 01:50:15.768  6620  6697 D Appodeal: ProtoRequest [Request body size to report: 2977 bytes.]
+10-07 01:50:15.862  6620  6783 D Appodeal: RewardedVideo [Request Failed]: No ads in rewarded video
+10-07 01:50:15.862  6620  6783 D Appodeal: RewardedVideo [Load Failed (soft)]: REQUEST ERROR (4)
+10-07 01:50:15.862  6620  6783 D Appodeal: RewardedVideo [Notify Mediation Result]: (winner): Vast - eCPM: 0.00, id: NmFLR...
+10-07 01:50:15.906  6620  6620 D Appodeal: RewardedVideo [Notify Loaded]: isPrecache: false
+10-07 01:50:15.906  6620  6620 I AppodealQA: 2026-10-07 01:50:15.906 CALLBACK onRewardedVideoLoaded isPrecache=false
+10-07 01:50:17.089  6620  6620 I AppodealQA: 2026-10-07 01:50:17.089 ACTION cache Native
+10-07 01:50:17.094  6620  6620 D Appodeal: SDK-Public [Appodeal]: cache
+10-07 01:50:17.094  6620  6620 D Appodeal: Native [Cache]: isDebug: false, isLoaded: false, isLoading: false
+10-07 01:50:17.164  6620  6641 D Appodeal: AdvertisingProfile [Extract]: GoogleAdvertisingProfile(id='0f563b70-7458-47f1-9dd5-bc8581ebf1eb', isLimitAdTrackingEnabled=false, isAdvertisingIdWasGenerated=false)
+10-07 01:50:17.293  6620  6783 D Appodeal: SDK-Public [Appodeal]: setTesting. testing: true
+10-07 01:50:17.293  6620  6783 D Appodeal: SDK [Dump]: Native waterfall:
+10-07 01:50:17.293  6620  6783 D Appodeal:   Ads:
+10-07 01:50:17.293  6620  6783 D Appodeal:     Appodeal, eCPM: 0.00; 
+10-07 01:50:17.318  6620  6620 D Appodeal: Native [Load Start]: Appodeal - eCPM: 0.00, precache: false, expTime: 0, id: clpyO...
+10-07 01:50:17.339  6620  6828 D Appodeal: Native [Loaded]: Appodeal - eCPM: 0.00, precache: false, expTime: 0, id: clpyO...
+10-07 01:50:17.339  6620  6828 D Appodeal: Native [Postbid Cache]: isDebug: false, isLoaded: true, isLoading: false
+10-07 01:50:17.402  6620  6641 D Appodeal: AdvertisingProfile [Extract]: GoogleAdvertisingProfile(id='0f563b70-7458-47f1-9dd5-bc8581ebf1eb', isLimitAdTrackingEnabled=false, isAdvertisingIdWasGenerated=false)
+10-07 01:50:17.403  6620  6641 D Appodeal: ProtoRequest [Request body size to report: 2962 bytes.]
+10-07 01:50:17.505  6620  6783 D Appodeal: Native [Request Failed]: No ads in native
+10-07 01:50:17.505  6620  6783 D Appodeal: Native [Load Failed (soft)]: REQUEST ERROR (4)
+10-07 01:50:17.506  6620  6783 D Appodeal: Native [Notify Loaded]: available count of Native Ads: 1
+10-07 01:50:17.506  6620  6620 D Appodeal: Native [Notify Loaded]: isPrecache: false
+10-07 01:50:17.506  6620  6783 D Appodeal: Native [Cache]: isDebug: false, isLoaded: true, isLoading: false
+10-07 01:50:17.507  6620  6620 I AppodealQA: 2026-10-07 01:50:17.507 CALLBACK onNativeLoaded 
+10-07 01:50:17.522  6620  6783 D Appodeal: SDK [Dump]: Native waterfall:
+10-07 01:50:17.522  6620  6783 D Appodeal:   Ads:
+10-07 01:50:17.522  6620  6783 D Appodeal:     Appodeal, eCPM: 0.00; 
+10-07 01:50:17.523  6620  6783 D Appodeal: Native [Notify Mediation Result]: (winner): Appodeal - eCPM: 0.00, id: clpyO...
+10-07 01:50:17.553  6620  6620 D Appodeal: Native [Load Start]: Appodeal - eCPM: 0.00, precache: false, expTime: 0, id: clpyO...
+10-07 01:50:17.572  6620  6828 D Appodeal: Native [Loaded]: Appodeal - eCPM: 0.00, precache: false, expTime: 0, id: clpyO...
+10-07 01:50:17.573  6620  6828 D Appodeal: Native [Postbid Cache]: isDebug: false, isLoaded: true, isLoading: false
+10-07 01:50:17.628  6620  6828 D Appodeal: AdvertisingProfile [Extract]: GoogleAdvertisingProfile(id='0f563b70-7458-47f1-9dd5-bc8581ebf1eb', isLimitAdTrackingEnabled=false, isAdvertisingIdWasGenerated=false)
+10-07 01:50:17.631  6620  6828 D Appodeal: ProtoRequest [Request body size to report: 2962 bytes.]
+10-07 01:50:17.726  6620  6783 D Appodeal: Native [Request Failed]: No ads in native
+10-07 01:50:17.726  6620  6783 D Appodeal: Native [Load Failed (soft)]: REQUEST ERROR (4)
+10-07 01:50:17.727  6620  6783 D Appodeal: Native [Notify Loaded]: available count of Native Ads: 2
+10-07 01:50:17.727  6620  6783 D Appodeal: Native [Notify Mediation Result]: (winner): Appodeal - eCPM: 0.00, id: clpyO...
+10-07 01:50:31.923  6620  6620 D Appodeal: ViewAdRenderer [onRenderRequested]: start
+10-07 01:50:31.925  6620  6620 D Appodeal: Banner [Show]: isDebug: false, isLoaded: true, isLoading: false, placement: 'default'
+10-07 01:50:31.929  6620  6620 D Appodeal: ViewAdRenderer [onRenderRequested]: Showing new ads
+10-07 01:50:31.929  6620  6620 D Appodeal: ViewAdRenderer [Display Ads]: start
+10-07 01:50:31.932  6620  6620 D Appodeal: ViewAdRenderer [Display Ads]: success
+10-07 01:50:31.932  6620  6620 D Appodeal: SDK-Public [Appodeal]: show. Banner, result: true
+10-07 01:50:31.933  6620  6620 I AppodealQA: 2026-10-07 01:50:31.933 ACTION show Banner accepted=true; wait for Shown callback
+10-07 01:50:31.964  6620  6620 D Appodeal: ViewAdRenderer [VisibilityTracker]: onViewShown
+10-07 01:50:31.969  6620  6620 D Appodeal: Banner [Shown]: Mraid - eCPM: 0.00, precache: false, expTime: 0, id: RGdwR...
+10-07 01:50:32.012  6620  6620 D Appodeal: Banner [Notify Shown]
+10-07 01:50:32.012  6620  6620 I AppodealQA: 2026-10-07 01:50:32.012 CALLBACK onBannerShown 
+10-07 01:50:32.164  6620  6698 D Appodeal: AdvertisingProfile [Extract]: GoogleAdvertisingProfile(id='0f563b70-7458-47f1-9dd5-bc8581ebf1eb', isLimitAdTrackingEnabled=false, isAdvertisingIdWasGenerated=false)
+10-07 01:50:33.991  6620  6620 D Appodeal: ViewAdRenderer [VisibilityTracker]: onViewTrackingFinished
+10-07 01:50:33.992  6620  6620 D Appodeal: Banner [Finished]: Mraid - eCPM: 0.00, precache: false, expTime: 0, id: RGdwR...
+10-07 01:50:34.030  6620  6693 D Appodeal: AdvertisingProfile [Extract]: GoogleAdvertisingProfile(id='0f563b70-7458-47f1-9dd5-bc8581ebf1eb', isLimitAdTrackingEnabled=false, isAdvertisingIdWasGenerated=false)
+10-07 01:50:38.693  6620  6620 D Appodeal: SDK-Public [Get]: NativeAds: 1
+10-07 01:50:38.694  6620  6620 D Appodeal: Native [Get Ads]: available count of Native Ads: 1
+10-07 01:50:38.694  6620  6620 D Appodeal: SDK-Public [NativeAdView]: registerView
+10-07 01:50:38.700  6620  6620 D Appodeal: Native [Shown]: Appodeal - eCPM: 0.00, precache: false, expTime: 0, id: clpyO...
+10-07 01:50:38.700  6620  6620 I AppodealQA: 2026-10-07 01:50:38.700 ACTION native registered; wait for onNativeShown
+10-07 01:50:38.724  6620  6620 D Appodeal: Native [Notify Shown]
+10-07 01:50:38.725  6620  6620 I AppodealQA: 2026-10-07 01:50:38.725 CALLBACK onNativeShown ad=com.appodeal.ads.nativead.b@57cb524
+10-07 01:50:38.727  6620  6620 D Appodeal: Native [Finished]: Appodeal - eCPM: 0.00, precache: false, expTime: 0, id: clpyO...
+10-07 01:50:38.963  6620  6828 D Appodeal: AdvertisingProfile [Extract]: GoogleAdvertisingProfile(id='0f563b70-7458-47f1-9dd5-bc8581ebf1eb', isLimitAdTrackingEnabled=false, isAdvertisingIdWasGenerated=false)
+10-07 01:50:38.969  6620  6697 D Appodeal: AdvertisingProfile [Extract]: GoogleAdvertisingProfile(id='0f563b70-7458-47f1-9dd5-bc8581ebf1eb', isLimitAdTrackingEnabled=false, isAdvertisingIdWasGenerated=false)
+10-07 01:50:42.274  6620  6620 D Appodeal: Interstitial [Show]: isDebug: false, isLoaded: true, isLoading: false, placement: 'default'
+10-07 01:50:42.275  6620  6620 D Appodeal: SDK-Public [Appodeal]: show. Interstitial, result: true
+10-07 01:50:42.279  6620  6620 I AppodealQA: 2026-10-07 01:50:42.279 ACTION show Interstitial accepted=true; wait for Shown callback
+10-07 01:50:42.742  6620  6620 D Appodeal: Interstitial [Shown]: Mraid - eCPM: 0.00, precache: false, expTime: 0, id: Unl6b...
+10-07 01:50:42.892  6620  6620 D Appodeal: Interstitial [Notify Shown]
+10-07 01:50:42.893  6620  6620 I AppodealQA: 2026-10-07 01:50:42.892 CALLBACK onInterstitialShown 
+10-07 01:50:42.968  6620  6828 D Appodeal: AdvertisingProfile [Extract]: GoogleAdvertisingProfile(id='0f563b70-7458-47f1-9dd5-bc8581ebf1eb', isLimitAdTrackingEnabled=false, isAdvertisingIdWasGenerated=false)
+10-07 01:50:48.085  6620  6620 D Appodeal: Interstitial [Closed]: Mraid - eCPM: 0.00, precache: false, expTime: 0, id: Unl6b...
+10-07 01:50:48.096  6620  6620 D Appodeal: Interstitial [Notify Closed]: finished: false
+10-07 01:50:48.096  6620  6620 I AppodealQA: 2026-10-07 01:50:48.096 CALLBACK onInterstitialClosed 
+10-07 01:50:48.099  6620  6620 D Appodeal: ViewAdRenderer [onRenderRequested]: start
+10-07 01:50:48.099  6620  6620 D Appodeal: Banner [Show]: isDebug: false, isLoaded: false, isLoading: false, placement: 'default'
+10-07 01:50:48.100  6620  6620 D Appodeal: ViewAdRenderer [onRenderRequested]: Trying to show previous ads
+10-07 01:50:48.100  6620  6620 D Appodeal: ViewAdRenderer [performShowPreviousAds]: start
+10-07 01:50:48.100  6620  6620 D Appodeal: ViewAdRenderer [performShowPreviousAds]: Perform showing previous ads
+10-07 01:50:48.100  6620  6620 D Appodeal: ViewAdRenderer [Display Ads]: start
+10-07 01:50:48.100  6620  6620 D Appodeal: ViewAdRenderer [Display Ads]: Skip actual showing because view already on screen: com.explorestack.iab.mraid.MraidView{bccf062 V.E...... ........ 100,0-940,131}
+10-07 01:50:50.407  6620  6620 D Appodeal: RewardedVideo [Show]: isDebug: false, isLoaded: true, isLoading: false, placement: 'default'
+10-07 01:50:50.408  6620  6620 D Appodeal: SDK-Public [Appodeal]: show. RewardedVideo, result: true
+10-07 01:50:50.409  6620  6620 I AppodealQA: 2026-10-07 01:50:50.408 ACTION show Rewarded accepted=true; wait for Shown callback
+10-07 01:50:50.532  6620  6620 D Appodeal: RewardedVideo [Shown]: Vast - eCPM: 0.00, precache: false, expTime: 0, id: NmFLR...
+10-07 01:50:50.710  6620  6828 D Appodeal: AdvertisingProfile [Extract]: GoogleAdvertisingProfile(id='0f563b70-7458-47f1-9dd5-bc8581ebf1eb', isLimitAdTrackingEnabled=false, isAdvertisingIdWasGenerated=false)
+10-07 01:50:50.757  6620  6620 D Appodeal: RewardedVideo [Notify Shown]
+10-07 01:50:50.758  6620  6620 I AppodealQA: 2026-10-07 01:50:50.757 CALLBACK onRewardedVideoShown 
+10-07 01:51:29.488  6620  6620 D Appodeal: RewardedVideo [Finished]: Vast - eCPM: 0.00, precache: false, expTime: 0, id: NmFLR...
+10-07 01:51:29.493  6620  6620 D Appodeal: RewardedVideo [Closed]: Vast - eCPM: 0.00, precache: false, expTime: 0, id: NmFLR...
+10-07 01:51:29.505  6620  6620 D Appodeal: RewardedVideo [Notify Finished]
+10-07 01:51:29.505  6620  6620 I AppodealQA: 2026-10-07 01:51:29.505 CALLBACK onRewardedVideoFinished amount=0.0 currency=
+10-07 01:51:29.506  6620  6620 I AppodealQA: 2026-10-07 01:51:29.506 STATE rewardTotal=0.0
+10-07 01:51:29.508  6620  6620 D Appodeal: RewardedVideo [Notify Closed]: finished: true
+10-07 01:51:29.508  6620  6620 I AppodealQA: 2026-10-07 01:51:29.508 CALLBACK onRewardedVideoClosed finished=true
+10-07 01:51:29.543  6620  6620 D Appodeal: ViewAdRenderer [onRenderRequested]: start
+10-07 01:51:29.543  6620  6620 D Appodeal: Banner [Show]: isDebug: false, isLoaded: false, isLoading: false, placement: 'default'
+10-07 01:51:29.544  6620  6620 D Appodeal: ViewAdRenderer [onRenderRequested]: Trying to show previous ads
+10-07 01:51:29.544  6620  6620 D Appodeal: ViewAdRenderer [performShowPreviousAds]: start
+10-07 01:51:29.544  6620  6620 D Appodeal: ViewAdRenderer [performShowPreviousAds]: Perform showing previous ads
+10-07 01:51:29.545  6620  6620 D Appodeal: ViewAdRenderer [Display Ads]: start
+10-07 01:51:29.545  6620  6620 D Appodeal: ViewAdRenderer [Display Ads]: Skip actual showing because view already on screen: com.explorestack.iab.mraid.MraidView{bccf062 V.E...... ........ 100,0-940,131}
+10-07 01:51:29.814  6620  6643 D Appodeal: AdvertisingProfile [Extract]: GoogleAdvertisingProfile(id='0f563b70-7458-47f1-9dd5-bc8581ebf1eb', isLimitAdTrackingEnabled=false, isAdvertisingIdWasGenerated=false)

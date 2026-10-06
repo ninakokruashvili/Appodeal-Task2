@@ -1,0 +1,14 @@
+{
+  "observed_sdk": "4.4.0",
+  "config_response_fields": [
+    "token",
+    "split_mmp_init",
+    "ext"
+  ],
+  "services_present": false,
+  "split_mmp_init": false,
+  "ext_field_names": [
+    "ef",
+    "bk"
+  ]
+}

@@ -1,0 +1,59 @@
+--------- beginning of main
+10-07 01:42:26.730  4877  4877 I AppodealQA: 2026-10-07 01:42:26.728 SESSION ready; no ad requests until Initialize SDK
+10-07 01:43:13.314  4877  4877 D Appodeal: SDK-Public [Appodeal]: setLogLevel. log level: verbose
+10-07 01:43:13.314  4877  4877 D Appodeal: SDK-Public [Appodeal]: setAutoCache. auto cache for Banner: false
+10-07 01:43:13.326  4877  4877 D Appodeal: Segment [Set]: matched segment #-1 (default - true): {}
+10-07 01:43:13.326  4877  4877 D Appodeal: SDK-Public [Appodeal]: setAutoCache. auto cache for Interstitial: false
+10-07 01:43:13.326  4877  4877 D Appodeal: SDK-Public [Appodeal]: setAutoCache. auto cache for RewardedVideo: false
+10-07 01:43:13.326  4877  4877 D Appodeal: SDK-Public [Appodeal]: setAutoCache. auto cache for Native: false
+10-07 01:43:13.326  4877  4877 I AppodealQA: 2026-10-07 01:43:13.326 ACTION initialize testMode=true formats=Banner,Interstitial,Rewarded,Native
+10-07 01:43:13.428  4877  4877 D Appodeal: SDK-Public [Appodeal]: initialize
+10-07 01:43:13.466  4877  5520 D Appodeal: SDK-Public [Initialize]: v4.3.0/220726 initialized, appKey: [APP_KEY_REDACTED], package name: com.task2.appodealqa
+10-07 01:43:13.466  4877  5520 D Appodeal: SDK-Public [Initialize]: Current device is: Emulator
+10-07 01:43:13.467  4877  5520 D Appodeal: SDK-Public [Initialize]: Google play services version: 12451000
+10-07 01:43:13.469  4877  5520 D Appodeal: Network [Info]: A4g - ver. 25.2.0
+10-07 01:43:13.469  4877  5520 D Appodeal: Network [Info]: Admob - ver. 25.2.0
+10-07 01:43:13.469  4877  5520 D Appodeal: Network [Info]: AdmobNative - ver. 25.2.0
+10-07 01:43:13.469  4877  5520 D Appodeal: Network [Info]: AdmobMediation - ver. 25.2.0
+10-07 01:43:13.469  4877  5520 D Appodeal: Network [Info]: Gam - ver. 25.2.0
+10-07 01:43:13.470  4877  5520 D Appodeal: Network [Info]: Notsy - ver. 25.2.0
+10-07 01:43:13.470  4877  5520 E Appodeal:  
+10-07 01:43:13.470  4877  5520 E Appodeal: 
+10-07 01:43:13.470  4877  5520 E Appodeal: ATTENTION:
+10-07 01:43:13.470  4877  5520 E Appodeal: 	Adapters are not registered in you app: 
+10-07 01:43:13.470  4877  5520 E Appodeal: 		appodeal, bidmachine, mraid, vast.
+10-07 01:43:13.470  4877  5520 E Appodeal: 	Please add the dependencies for them to improve your fill rates and increase revenue.
+10-07 01:43:13.470  4877  5520 E Appodeal: 	If you are sure that you do not need these adapters, skip this warning.
+10-07 01:43:13.470  4877  5520 E Appodeal:  
+10-07 01:43:13.519  4877  4922 D Appodeal: AdvertisingProfile [Extract]: SuppressedAdvertisingProfile(id='00000000-0000-0000-0000-000000000000', isLimitAdTrackingEnabled=true, isAdvertisingIdWasGenerated=false)
+10-07 01:43:14.409  4877  4922 D Appodeal: AdvertisingProfile [Extract]: GoogleAdvertisingProfile(id='0f563b70-7458-47f1-9dd5-bc8581ebf1eb', isLimitAdTrackingEnabled=false, isAdvertisingIdWasGenerated=false)
+10-07 01:43:14.410  4877  4922 D Appodeal: Exception
+10-07 01:43:14.410  4877  4922 D Appodeal: java.lang.IllegalArgumentException: Required value was null.
+10-07 01:43:14.410  4877  4922 D Appodeal: 	at com.appodeal.ads.networking.usecases.b.a(SourceFile:11)
+10-07 01:43:14.410  4877  4922 D Appodeal: 	at com.appodeal.ads.networking.usecases.a.invokeSuspend(SourceFile:11)
+10-07 01:43:14.410  4877  4922 D Appodeal: 	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+10-07 01:43:14.410  4877  4922 D Appodeal: 	at kotlinx.coroutines.UndispatchedCoroutine.afterResume(CoroutineContext.kt:266)
+10-07 01:43:14.410  4877  4922 D Appodeal: 	at kotlinx.coroutines.AbstractCoroutine.resumeWith(AbstractCoroutine.kt:100)
+10-07 01:43:14.410  4877  4922 D Appodeal: 	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:46)
+10-07 01:43:14.410  4877  4922 D Appodeal: 	at kotlinx.coroutines.internal.ScopeCoroutine.afterResume(Scopes.kt:28)
+10-07 01:43:14.410  4877  4922 D Appodeal: 	at kotlinx.coroutines.AbstractCoroutine.resumeWith(AbstractCoroutine.kt:100)
+10-07 01:43:14.410  4877  4922 D Appodeal: 	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:46)
+10-07 01:43:14.410  4877  4922 D Appodeal: 	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:101)
+10-07 01:43:14.410  4877  4922 D Appodeal: 	at kotlinx.coroutines.internal.LimitedDispatcher$Worker.run(LimitedDispatcher.kt:113)
+10-07 01:43:14.410  4877  4922 D Appodeal: 	at kotlinx.coroutines.scheduling.TaskImpl.run(Tasks.kt:89)
+10-07 01:43:14.410  4877  4922 D Appodeal: 	at kotlinx.coroutines.scheduling.CoroutineScheduler.runSafely(CoroutineScheduler.kt:589)
+10-07 01:43:14.410  4877  4922 D Appodeal: 	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.executeTask(CoroutineScheduler.kt:823)
+10-07 01:43:14.410  4877  4922 D Appodeal: 	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.runWorker(CoroutineScheduler.kt:720)
+10-07 01:43:14.410  4877  4922 D Appodeal: 	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.run(CoroutineScheduler.kt:707)
+10-07 01:43:15.498  4877  5520 D Appodeal: AdvertisingProfile [Extract]: GoogleAdvertisingProfile(id='0f563b70-7458-47f1-9dd5-bc8581ebf1eb', isLimitAdTrackingEnabled=false, isAdvertisingIdWasGenerated=false)
+10-07 01:43:15.798  4877  5520 D Appodeal: AdvertisingProfile [Extract]: GoogleAdvertisingProfile(id='0f563b70-7458-47f1-9dd5-bc8581ebf1eb', isLimitAdTrackingEnabled=false, isAdvertisingIdWasGenerated=false)
+10-07 01:43:15.879  4877  4877 D Appodeal: SDK-Public [Appodeal]: initialize. Error during executing method - 
+10-07 01:43:15.880  4877  4877 D Appodeal: Banner [Initialize]: done
+10-07 01:43:15.880  4877  4877 D Appodeal: Native [Initialize]: done
+10-07 01:43:15.880  4877  4877 D Appodeal: Interstitial [Initialize]: done
+10-07 01:43:15.880  4877  4877 D Appodeal: RewardedVideo [Initialize]: done
+10-07 01:43:15.880  4877  4877 I AppodealQA: 2026-10-07 01:43:15.880 CALLBACK onInitializationFinished errors=[com.appodeal.ads.initializing.ApdInitializationError$InternalError$SdkConfigurationError]
+10-07 01:43:15.882  4877  4877 I AppodealQA: 2026-10-07 01:43:15.882 STATE Banner initialized=true
+10-07 01:43:15.882  4877  4877 I AppodealQA: 2026-10-07 01:43:15.882 STATE Interstitial initialized=true
+10-07 01:43:15.882  4877  4877 I AppodealQA: 2026-10-07 01:43:15.882 STATE Rewarded initialized=true
+10-07 01:43:15.882  4877  4877 I AppodealQA: 2026-10-07 01:43:15.882 STATE Native initialized=true

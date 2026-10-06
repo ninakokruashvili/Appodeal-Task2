@@ -1,0 +1,27 @@
+10-07 01:49:29.358  6620  6620 I AppodealQA: 2026-10-07 01:49:29.358 SESSION ready; no ad requests until Initialize SDK
+10-07 01:49:37.565  6620  6620 I AppodealQA: 2026-10-07 01:49:37.564 ACTION initialize testMode=true formats=Banner,Interstitial,Rewarded,Native
+10-07 01:49:39.992  6620  6620 I AppodealQA: 2026-10-07 01:49:39.992 CALLBACK onInitializationFinished errors=[com.appodeal.ads.initializing.ApdInitializationError$InternalError$SdkConfigurationError]
+10-07 01:49:39.993  6620  6620 I AppodealQA: 2026-10-07 01:49:39.993 STATE Banner initialized=true
+10-07 01:49:39.994  6620  6620 I AppodealQA: 2026-10-07 01:49:39.994 STATE Interstitial initialized=true
+10-07 01:49:39.994  6620  6620 I AppodealQA: 2026-10-07 01:49:39.994 STATE Rewarded initialized=true
+10-07 01:49:39.994  6620  6620 I AppodealQA: 2026-10-07 01:49:39.994 STATE Native initialized=true
+10-07 01:50:11.659  6620  6620 I AppodealQA: 2026-10-07 01:50:11.659 ACTION cache Banner
+10-07 01:50:12.702  6620  6620 I AppodealQA: 2026-10-07 01:50:12.702 CALLBACK onBannerLoaded height=50 isPrecache=false
+10-07 01:50:13.274  6620  6620 I AppodealQA: 2026-10-07 01:50:13.274 ACTION cache Interstitial
+10-07 01:50:13.752  6620  6620 I AppodealQA: 2026-10-07 01:50:13.752 CALLBACK onInterstitialLoaded isPrecache=false
+10-07 01:50:15.006  6620  6620 I AppodealQA: 2026-10-07 01:50:15.006 ACTION cache Rewarded
+10-07 01:50:15.906  6620  6620 I AppodealQA: 2026-10-07 01:50:15.906 CALLBACK onRewardedVideoLoaded isPrecache=false
+10-07 01:50:17.089  6620  6620 I AppodealQA: 2026-10-07 01:50:17.089 ACTION cache Native
+10-07 01:50:17.507  6620  6620 I AppodealQA: 2026-10-07 01:50:17.507 CALLBACK onNativeLoaded 
+10-07 01:50:31.933  6620  6620 I AppodealQA: 2026-10-07 01:50:31.933 ACTION show Banner accepted=true; wait for Shown callback
+10-07 01:50:32.012  6620  6620 I AppodealQA: 2026-10-07 01:50:32.012 CALLBACK onBannerShown 
+10-07 01:50:38.700  6620  6620 I AppodealQA: 2026-10-07 01:50:38.700 ACTION native registered; wait for onNativeShown
+10-07 01:50:38.725  6620  6620 I AppodealQA: 2026-10-07 01:50:38.725 CALLBACK onNativeShown ad=com.appodeal.ads.nativead.b@57cb524
+10-07 01:50:42.279  6620  6620 I AppodealQA: 2026-10-07 01:50:42.279 ACTION show Interstitial accepted=true; wait for Shown callback
+10-07 01:50:42.893  6620  6620 I AppodealQA: 2026-10-07 01:50:42.892 CALLBACK onInterstitialShown 
+10-07 01:50:48.096  6620  6620 I AppodealQA: 2026-10-07 01:50:48.096 CALLBACK onInterstitialClosed 
+10-07 01:50:50.409  6620  6620 I AppodealQA: 2026-10-07 01:50:50.408 ACTION show Rewarded accepted=true; wait for Shown callback
+10-07 01:50:50.758  6620  6620 I AppodealQA: 2026-10-07 01:50:50.757 CALLBACK onRewardedVideoShown 
+10-07 01:51:29.505  6620  6620 I AppodealQA: 2026-10-07 01:51:29.505 CALLBACK onRewardedVideoFinished amount=0.0 currency=
+10-07 01:51:29.506  6620  6620 I AppodealQA: 2026-10-07 01:51:29.506 STATE rewardTotal=0.0
+10-07 01:51:29.508  6620  6620 I AppodealQA: 2026-10-07 01:51:29.508 CALLBACK onRewardedVideoClosed finished=true
