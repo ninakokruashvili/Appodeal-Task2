@@ -13,6 +13,5 @@ The source project contains a duplicate QA folder so its relative documentation 
 
 All four Test Mode formats loaded and displayed. Their relevant callbacks were recorded. The Android build and lint checks passed.
 
-**Unresolved requirement:** the global initialization callback reports SdkConfigurationError, despite all four format initialization flags being true. Local investigation confirmed a missing services field in the SDK configuration response. The report documents the comparison tests and remaining limitation honestly; this submission is not a fully passing implementation.
+**Unresolved requirement:** the global initialization callback reports SdkConfigurationError, despite all four format initialization flags being true. There were missing services field in the SDK configuration response. 
 
-The Appodeal app key is not included. Enter the app key at runtime to reproduce. No GitHub login credentials are needed to review these files.
